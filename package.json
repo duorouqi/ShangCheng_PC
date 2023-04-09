@@ -1,0 +1,36 @@
+{
+  "name": "mana-core-admin",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite && npm run lint",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue src"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^1.1.4",
+    "axios": "^0.26.1",
+    "element-plus": "^2.1.7",
+    "js-cookie": "^3.0.1",
+    "js-md5": "^0.7.3",
+    "less": "^4.1.2",
+    "qs": "^6.11.0",
+    "vue": "^3.2.4",
+    "vue-router": "^4.0.14",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-eslint": "^8.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "babel-eslint": "10.0.1",
+    "eslint": "^8.12.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "less-loader": "^7.3.0",
+    "unplugin-auto-import": "^0.6.9",
+    "unplugin-vue-components": "^0.18.5",
+    "vite": "^2.8.0"
+  }
+}

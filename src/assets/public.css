@@ -1,0 +1,93 @@
+body{margin:0; padding:0; font:14px"\5B8B\4F53",sans-serif;background:#ffffff;font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+/* table,td,tr,th{font-size:12px;} */
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:14px; font-weight:normal;}
+/* address,cite,code,em,th {font-weight:normal; font-style:normal;} */
+    
+
+/*自定义全局样式*/
+#app{
+    height: 100vh;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;;
+}
+body{
+	.el-popper{
+		min-width: auto !important;
+		width: 200px !important;
+	}
+}
+
+       /* fade */
+   .fade-enter-active,
+   .fade-leave-active {
+       transition: opacity 0.28s;
+   }
+
+.fade-enter,
+.fade-leave-active {
+    opacity: 0;
+}
+
+/* fade-transform */
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+    transition: all .5s;
+}
+
+.fade-transform-enter {
+    opacity: 0;
+    transform: translateX(-30px);
+}
+
+.fade-transform-leave-to {
+    opacity: 0;
+    transform: translateX(30px);
+}
+
+/* breadcrumb transition */
+.breadcrumb-enter-active,
+.breadcrumb-leave-active {
+    transition: all .5s;
+}
+
+.breadcrumb-enter,
+.breadcrumb-leave-active {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+.breadcrumb-move {
+    transition: all .5s;
+}
+
+.breadcrumb-leave-active {
+    position: absolute;
+}
+
+
+.table-btn{
+    display: inline-block;
+    margin-right: 10px;
+    color:#409eff;
+}
+.table-btn:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+/* //下拉框最大宽度 */
+.el-cascader-node{
+	    line-height: normal !important;
+		height: auto !important;
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+}
+.el-cascader-node__label{
+	display: block !important;
+	white-space:normal!important;
+	word-break:break-all!important;
+	max-width: 250px!important;
+	word-wrap: break-word!important;
+}
